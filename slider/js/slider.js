@@ -1,3 +1,11 @@
+//work with car
+
+car1.engine.horsesPower = 200;
+console.log(car1);
+console.log(car1.isTurnOn);
+car1.start();
+console.log(car1.isTurnOn);
+
 //find elements
 var showPrevBtn = document.getElementById('show-prev');
 var showNextBtn = document.getElementById('show-next');
@@ -41,4 +49,5 @@ function onShowNextBtnClick() {
         showNextBtn.disabled = true;
     }
 }
+
 
